@@ -3,6 +3,9 @@ package edu.esprit.mooc.domain.Entity;
 import java.io.Serializable;
 import java.lang.Integer;
 import java.lang.String;
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.persistence.*;
 
 /**
@@ -17,6 +20,7 @@ public class User implements Serializable {
 	private Integer id_User;
 	private String name_User;
 	private String lastname_User;
+ 	private List<Message> list_message=new ArrayList<Message>();
 	
 	private static final long serialVersionUID = 1L;
 
@@ -46,5 +50,14 @@ public class User implements Serializable {
 	public void setLastname_User(String lastname_User) {
 		this.lastname_User = lastname_User;
 	}
+	@OneToMany
+	public List<Message> getList_message() {
+		return list_message;
+	}
+	public void setList_message(List<Message> list_message) {
+		this.list_message = list_message;
+	}
+
+	
    
 }

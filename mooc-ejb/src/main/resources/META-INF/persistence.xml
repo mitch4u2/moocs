@@ -3,7 +3,7 @@
 	<persistence-unit name="mooc-ejb">
 	<jta-data-source>java:/MoocDS</jta-data-source>
 	<class>edu.esprit.mooc.domain.Entity.User</class>
-	<class>edu.esprit.mooc.domain.Entity.Messsage</class>
+	<class>edu.esprit.mooc.domain.Entity.Message</class>
 	
 	
 		<properties>
