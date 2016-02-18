@@ -24,8 +24,8 @@ public class _00_gestUser {
 			
 			GestionUserSbRemote gestion=(GestionUserSbRemote) ctx.lookup("/mooc-ejb/usersb!"+GestionUserSbRemote.class.getCanonicalName());
 			User user=new User();
-			user.setName_User("Mohamed");
-			user.setLastname_User("Hajjej");
+			user.setName_User("Monika");
+			user.setLastname_User("Romaskaite");
 			
 			//user.setNom_User("Hajjej");
 			//user.setPrenom_User("Mohamed");

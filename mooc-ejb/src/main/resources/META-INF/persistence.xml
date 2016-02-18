@@ -4,6 +4,13 @@
 	<jta-data-source>java:/MoocDS</jta-data-source>
 	<class>edu.esprit.mooc.domain.Entity.User</class>
 	<class>edu.esprit.mooc.domain.Entity.Message</class>
+	<class>edu.esprit.mooc.domain.Entity.Course</class>
+	<class>edu.esprit.mooc.domain.Entity.Enrollement</class>
+	<class>edu.esprit.mooc.domain.Entity.PropositionSurvey</class>
+	<class>edu.esprit.mooc.domain.Entity.Request</class>
+	<class>edu.esprit.mooc.domain.Entity.Role</class>
+	<class>edu.esprit.mooc.domain.Entity.Survey_quest</class>
+	<class>edu.esprit.mooc.domain.Entity.Survey</class>
 	
 	
 		<properties>
